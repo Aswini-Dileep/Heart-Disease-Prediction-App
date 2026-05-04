@@ -44,14 +44,14 @@ with col1:
                           4: "Asymptomatic"
                       }[x],
                       index=None,
-                      placeholder="Select chest pain type",
+                      placeholder="Select Option",
                       key="cp")
 
     bp = st.number_input("Blood Pressure", 60, 200, value=None,
-                         placeholder="Enter BP (e.g., 120)", key="bp")
+                         placeholder="Enter Value (e.g., 120)", key="bp")
 
     chol = st.number_input("Cholesterol", 100, 600, value=None,
-                           placeholder="Enter cholesterol (e.g., 200)", key="chol")
+                           placeholder="Enter Value (e.g., 200)", key="chol")
 
     fbs = st.radio("Fasting Blood Sugar > 120", ["Yes", "No"],
                    index=None, horizontal=True, key="fbs")
@@ -66,18 +66,18 @@ with col1:
                            2: "Left ventricular hypertrophy"
                        }[x],
                        index=None,
-                       placeholder="Select EKG results",
+                       placeholder="Select Option",
                        key="ekg")
 
 with col2:
     max_hr = st.number_input("Max Heart Rate", 60, 220, value=None,
-                             placeholder="Enter Max HR (e.g., 150)", key="max_hr")
+                             placeholder="Enter Value (e.g., 150)", key="max_hr")
 
     ex_angina = st.radio("Exercise Angina", ["Yes", "No"],
                          index=None, horizontal=True, key="ex_angina")
 
     st_dep = st.number_input("ST Depression", 0.0, 6.3, value=None,
-                             placeholder="Enter ST depression (e.g., 1.0)", key="st_dep")
+                             placeholder="Enter Value (e.g., 1.0)", key="st_dep")
 
     slope = st.selectbox("Slope of ST",
                          {1: "Upsloping",
@@ -89,12 +89,12 @@ with col2:
                              3: "Downsloping"
                          }[x],
                          index=None,
-                         placeholder="Select slope",
+                         placeholder="Select Option",
                          key="slope")
 
-    vessels = st.selectbox("Number of Vessels", [0, 1, 2, 3],
+    vessels = st.selectbox("Number of Vessels detected (Fluoroscopy)", [0, 1, 2, 3],
                            index=None,
-                           placeholder="Select vessels",
+                           placeholder="Select Option",
                            key="vessels")
 
     thal = st.selectbox("Thallium Test",
@@ -107,7 +107,7 @@ with col2:
                             7: "Reversible Defect"
                         }[x],
                         index=None,
-                        placeholder="Select Thallium",
+                        placeholder="Select Option",
                         key="thal")
 
 # ---------------- BUTTONS ----------------
