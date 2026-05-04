@@ -113,8 +113,8 @@ with col2:
 # ---------------- BUTTONS ----------------
 col_btn1, col_btn2 = st.columns(2)
 
-predict_clicked = col_btn1.button("🔍 Predict", use_container_width=True)
-reset_clicked = col_btn2.button("🔄 Reset", use_container_width=True)
+predict_clicked = col_btn1.button("Predict", use_container_width=True)
+reset_clicked = col_btn2.button("Reset", use_container_width=True)
 
 # ---------------- RESET ----------------
 if reset_clicked:
