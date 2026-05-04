@@ -195,6 +195,12 @@ The model output is categorized as:
 
 This makes the system more usable in real-world scenarios.
 
+<img width="670" height="1179" alt="heart2" src="https://github.com/user-attachments/assets/fd9422e9-c2cb-4484-a045-1d4124bb9563" />
+
+<img width="717" height="1212" alt="heart1" src="https://github.com/user-attachments/assets/cdb9c5a8-0b21-4d25-91e9-d3bb4d3afcba" />
+
+<img width="670" height="1141" alt="heart3" src="https://github.com/user-attachments/assets/906ab746-36d7-48b5-b370-32d3d3e75b2a" />
+
 ---
 
 ##  Recommendation System
